@@ -1,0 +1,109 @@
+.container {
+    background: url("../assets/destination/background-destination-desktop.jpg")  ;
+    background-size: cover;
+    width: 100%;
+    height: 900px;
+    color: #fff;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 90px;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 112px;
+}
+
+.image {
+    display: flex;
+    flex-direction: column;
+    gap: 94px;
+}
+.image h1 {
+    font-family: "Barlow Condensed";
+    font-size: 28px;
+    letter-spacing: 4.72px;
+    font-weight: 100;
+    text-transform: uppercase;
+    color: #d0d6f9;
+}
+
+.info {
+    width: 445px;
+    height: 472px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.info ul {
+    list-style: none;
+    display: flex;
+    gap: 36px;
+}
+
+.info ul li {
+    text-transform: uppercase;
+    font-family: "Barlow Condensed";
+    letter-spacing: 2.7px;
+    font-size: 16px;
+    cursor: pointer;
+    color: #d0d6f9;
+}
+
+.info ul li:hover{
+    color: #fff;
+}
+
+.info h1 {
+    font-size: 100px;
+    font-family: "Bellefair";
+    font-weight: 100;
+}
+
+.info p {
+    font-family: "Barlow Condensed";
+    font-size: 18px;
+    line-height: 32px;
+    color: #d0d6f9;
+}
+
+.linha{
+    width: 400px;
+    height: 1px;
+    background-color: #979797;
+    opacity: .25;
+    left: 150px;
+}
+
+.info_travel{
+    display: flex;
+    justify-content: flex-end;
+    gap: 79px;
+}
+
+.info_travel div{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.info_travel h3{
+    font-size: 14px;
+    font-family: 'Barlow Condensed';
+    font-weight: 200;
+    letter-spacing: 2.36px;
+    color: #D0D6F9;
+}
+
+.info_travel strong{
+    font-family: 'Bellefair';
+    font-size: 28px;
+    font-weight: 100;
+}

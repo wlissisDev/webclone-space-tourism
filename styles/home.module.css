@@ -1,0 +1,72 @@
+.container {
+    width: 100%;
+    height: 100%;
+    background: url("../assets/home/background-home-desktop.jpg") no-repeat;
+    background-position: center;
+    background-size: 100%;
+
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: space-between;
+    gap: 250px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.info {
+    width: 450px;
+    height: 382px;
+    text-align: left;
+}
+
+.info h1 {
+    font-family: "Barlow Condensed";
+    font-size: 28px;
+    font-weight: 100;
+    letter-spacing: 4.72px;
+    text-transform: uppercase;
+    color: #d0d6f9;
+    text-align: left;
+}
+
+.info  strong {
+    margin: 0 24px;
+    font-family: "Bellefair";
+    font-size: 150px;
+    font-weight: 300;
+    color: #fff;
+    text-align: left;
+}
+
+.info p {
+    font-family: "Barlow Condensed";
+    color: #d0d6f9;
+
+    line-height: 32px;
+    font-size: 18px;
+    text-align: left;
+}
+
+.content p {
+}
+
+.explore {
+    width: 274px;
+    height: 274px;
+    border-radius: 50%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.explore h2 {
+    font-size: 32px;
+    font-family: "Bellefair";
+    font-weight: lighter;
+    letter-spacing: 2px;
+}
