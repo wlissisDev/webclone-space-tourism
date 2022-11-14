@@ -15,7 +15,7 @@ export default function NavBar() {
                     Home
                 </a>
                 <a className={style.item} href="destination">
-                    01
+                    <strong>01 </strong>
                     Destination
                 </a>
                 <a className={style.item} href="crew">
